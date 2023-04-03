@@ -1,0 +1,9 @@
+.newtask {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 0.5rem;
+  margin-top: -1.6875rem;
+}

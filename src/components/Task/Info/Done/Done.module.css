@@ -1,0 +1,32 @@
+.done {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  gap: 0.5rem;
+
+  font-weight: 700;
+  font-size: 0.875rem;
+
+  /* identical to box height */
+  /* Blue */
+  color: var(--purple);
+}
+
+#countDone {
+  display: flex;
+  align-items: center;
+  padding: 2px 8px;
+  width: 1.5625rem;
+  height: 1.1875rem;
+
+  /* Gray 400 */
+  background: var(--gray-400);
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.75rem;
+
+  /* Gray 200 */
+
+  color: var(--gray-200);
+}

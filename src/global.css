@@ -16,6 +16,13 @@
   --danger-500: #e25858;
 }
 
+:focus{
+  outline: none;
+  border: 1px solid var(--purpledark);
+  border-radius: 0.5rem;
+  color: var(--gray-100);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -25,4 +32,24 @@
 body {
   background: var(--gray-600);
   -webkit-font-smoothing: antialiased;
+  color: var(--gray-100);
+}
+
+button,span,input,textarea {
+  font-family: 'Inter';
+  font-style: normal;
+}
+
+
+@media (max-width: 768px) {
+  html {
+    font-size: 80%;
+  }
+
+  body {
+    -webkit-font-smoothing: antialiased;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    align-items: center;
+  }
 }

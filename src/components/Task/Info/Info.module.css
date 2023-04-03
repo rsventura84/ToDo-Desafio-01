@@ -1,0 +1,14 @@
+.info {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 46rem;
+    height: 1.1875rem;
+}
+

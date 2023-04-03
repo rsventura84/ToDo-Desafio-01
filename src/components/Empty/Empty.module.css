@@ -1,0 +1,22 @@
+.empty {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 46rem;
+  height: 15.25rem;
+  /* Grey 400 */
+  border-top: 1px solid var(--gray-400);
+  border-radius: 8px;
+  gap: 1rem;
+  font-size: 1rem;
+  line-height: 1.4;
+  text-align: center;
+  color: var(--gray-300);
+}
+
