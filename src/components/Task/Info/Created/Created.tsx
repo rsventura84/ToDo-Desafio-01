@@ -1,9 +1,12 @@
 import { useState } from "react";
 import styles from "./Created.module.css";
 
-export function Created() {
-  const [countCreated, setCountCreated] = useState(0);
 
+interface CreatedProps {
+  countCreated?: number;
+}
+
+export function Created({countCreated}: CreatedProps) {
 
   return (
     <div className={styles.created}>

@@ -8,7 +8,7 @@
 .container{
     display: flex;
     justify-content: space-between;
-    width: 46rem;
+    width: 100%;
     height: 1.1875rem;
 }
 

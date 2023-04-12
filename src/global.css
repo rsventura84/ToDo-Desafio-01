@@ -40,16 +40,3 @@ button,span,input,textarea {
   font-style: normal;
 }
 
-
-@media (max-width: 768px) {
-  html {
-    font-size: 80%;
-  }
-
-  body {
-    -webkit-font-smoothing: antialiased;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    align-items: center;
-  }
-}
